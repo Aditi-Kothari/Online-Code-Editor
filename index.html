@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<main>
+    <section class="header">
+        <menu>
+            <button class="change active">HTML</button>
+            <button class="change ">CSS</button>
+            <button class="change ">JS</button>
+        </menu>
+        <h1>Live Preview</h1>
+    </section>
+
+    <section id="edit">
+        <textarea class="text show"id="html-code" placeholder="Input Your HTML here"></textarea>
+        <textarea class="text hide" id="css-code" placeholder="Input Your CSS here"></textarea>
+        <textarea class="text hide" id="js-code"placeholder="Input Your JS here"></textarea>
+        <iframe  id="output"></iframe>
+    </section>
+</main>
+
+
+<script src="index.js"></script>
+</body>
+</html>
+
